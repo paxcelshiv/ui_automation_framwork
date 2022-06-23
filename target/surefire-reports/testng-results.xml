@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-23T16:46:36Z" name="Suite" finished-at="2022-06-23T16:47:04Z" duration-ms="28285">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.vangoghmuseum.testrunner.TestNgRunner@15a04efb]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-06-23T16:46:36Z" name="Test" finished-at="2022-06-23T16:47:04Z" duration-ms="28285">
+      <class name="com.vangoghmuseum.testrunner.TestNgRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.vangoghmuseum.testrunner.TestNgRunner@15a04efb]" started-at="2022-06-23T16:46:36Z" name="setUpClass" finished-at="2022-06-23T16:46:36Z" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.vangoghmuseum.testrunner.TestNgRunner@15a04efb]" started-at="2022-06-23T16:46:36Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-23T16:46:56Z" duration-ms="19309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test functionality of Ontdek de collectie page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.vangoghmuseum.testrunner.TestNgRunner@15a04efb]" started-at="2022-06-23T16:46:56Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-23T16:47:04Z" duration-ms="8694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test functionality of home page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.vangoghmuseum.testrunner.TestNgRunner@15a04efb]" started-at="2022-06-23T16:47:04Z" name="tearDownClass" finished-at="2022-06-23T16:47:04Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.vangoghmuseum.testrunner.TestNgRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
